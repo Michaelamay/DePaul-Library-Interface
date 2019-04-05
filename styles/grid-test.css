@@ -1,0 +1,33 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #F0F0F0; */
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+img {
+    display: block;
+    box-shadow: -1px -1px 1px rgba(0,0,0,0.6);
+    width: 2fr;
+    height: 2fr;
+}
+
+/* .item-a {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+  }
+
+.item-b {
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+} */
