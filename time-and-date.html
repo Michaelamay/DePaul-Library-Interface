@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Time and Date</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/text-transfer.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="to-change">
+        <!-- Centered Page Fluid Container -->
+        <div class="container">
+
+            <h1>Date</h1>
+            <label for="date-select">Choose a date to study:</label>
+            <select id="date-select">
+                <option value="">--Please choose an option--</option>
+                <option value="0315">Friday, 03/15/19</option>
+                <option value="0316">Saturday, 03/16/19</option>
+                <option value="0317">Sunday, 03/17/19</option>
+                <option value="0318">Monday, 03/18/19</option>
+                <option value="0319">Tuesday, 03/19/19</option>
+                <option value="0320">Wednesday, 03/20/19</option>
+                <option value="0321">Thursday, 03/21/19</option>
+            </select>
+
+        </div>
+
+        <div class="container">
+            <h1>Time</h1>
+            <label for="time-select">Choose a time to study:</label>
+            <select id="time-select">
+                <option value="">--Please choose an option--</option>
+                <option value="8a">8:00-9:00</option>
+                <option value="9a">9:00-10:00</option>
+                <option value="10a">10:00-11:00</option>
+                <option value="11a">11:00-12:00</option>
+                <option value="12p">12:00-1:00</option>
+                <option value="1p">1:00-2:00</option>
+                <option value="2p">2:00-3:00</option>
+                <option value="3p">3:00-4:00</option>
+                <option value="4p">4:00-5:00</option>
+                <option value="5p">5:00-6:00</option>
+                <option value="6p">6:00-7:00</option>
+                <option value="7p">7:00-8:00</option>
+                <option value="8p">8:00-9:00</option>
+            </select>
+
+            <div class="container-fluid">
+                    <a href="#" class="btn btn-info btn-md" role="button" id="value-submissions-1">Select</a>
+            </div>
+
+            <!-- Previous/Next Navigation -->
+            <ul class="pager fixed-bottom">
+                <li class="previous"><a href="floors-criteria-met.html">Previous</a></li>
+<!--                You have chosen page.-->
+                <li class="next"><a href="#" id="value-submissions-2">Next</a></li>
+            </ul>
+        </div>
+
+
+
+
+
+    </div><!-- END Centered Page Fluid Container -->
+    <!-- <script>
+        window.onload = function () {
+
+            var submission = document.getElementById('value-submissions-2').onclick = function () {
+                
+                var date = document.getElementById('date-select');
+                var dateText = date.options[date.selectedIndex].text;
+                date: dateText;
+                // console.log(dateText)
+
+                // var time = document.getElementById('time-select');
+                // var timeText = time.options[time.selectedIndex].text;
+                // console.log(timeText)
+            }
+
+            // var getInput = dateText
+            localStorage.setItem("storageName", submission.date);
+            console.log(localStorage.setItem("storageName", submission))
+        }
+    </script> -->
+</body>
+
+
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Select a Floor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <script src="js/index.js" defer></script>
+  <script src="js/floor-options.js" defer></script>
+</head>
+<body onload="replaceRadio()">
+
+    <div class="container-fluid"> <!-- Centered Page Fluid Container -->
+        <div class="container">
+            <h1>3/4 Floors Meet Your Criteria:</h1>
+            <!-- <p>______________________________________________________________</p> -->
+            <hr>
+            <h3>Please select a floor:</h3>
+            <div class="radio">
+                <label><input type="radio" name="floor" id="1st-floor" checked>1st Floor</label>
+                <p>--16/50 Available</p>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="floor" id="2nd-floor" disabled>2nd Floor</label>
+                <p>--0/50 Available</p>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="floor" id="3rd-floor">3rd Floor</label>
+                <p>--22/50 Available</p>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="floor" id="4th-floor">4th Floor</label>
+                <p>--11/50 Available</p>
+            </div>
+            
+            <!-- Previous/Next Navigation -->
+            <ul class="pager">
+                    <li class="previous"><a href="environment-seat-type.html">Previous</a></li>
+                    <li class="next"><a href="time-and-date.html">Next</a></li>
+                </ul>
+        </div>
+    </div><!-- END Centered Page Fluid Container -->
+    
+</body>
+</html>
