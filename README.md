@@ -8,6 +8,8 @@ A conceptional user interactive interface to ease students library experience fo
 
 <p>Users can check for quick seat availability by choosing to view an overview floor plan of all 4 floors.</p>
 
+<img src="Readme_Imgs/floorplan_availability.png" width="500" >
+
 
 
 
