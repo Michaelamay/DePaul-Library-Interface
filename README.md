@@ -17,4 +17,16 @@ A conceptional user interactive interface to ease students library experience fo
 <p>Furthermore, users can request a particular chair and make a reservation</p>
 
 
+<div class="row">
+  <div class="column">
+    <img src="Readme_Imgs/chair_type.png" alt="chair type" style="width:250%" border="5">
+  </div>
+  
+  <div class="column">
+    <img src="Readme_Imgs/reservation.png" alt="reservation page" style="width:250%">
+  </div>
+  </div>
+
+
+
 
