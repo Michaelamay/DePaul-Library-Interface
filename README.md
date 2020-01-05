@@ -12,6 +12,8 @@ A conceptional user interactive interface to ease students library experience fo
 
 <p>or, only a particular floor plan in more detail</p>
 
+<img src="Readme_Imgs/floor3.png" width="500">
+
 
 
 
