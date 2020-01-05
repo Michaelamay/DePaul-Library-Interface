@@ -10,6 +10,8 @@ A conceptional user interactive interface to ease students library experience fo
 
 <img src="Readme_Imgs/floorplan_availability.png" width="500" >
 
+<or, only a particular floor plan in more detail>
+
 
 
 
