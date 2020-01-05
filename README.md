@@ -4,5 +4,11 @@ A conceptional user interactive interface to ease students library experience fo
 <h2>How It Works</h2>
 <p>Users can have two main options: make a seat reservation or seating availability by floor plan.</p>
 
+<img src="Readme_Imgs/select.png" width="500" >
+
+<p>Users can check for quick seat availability by choosing to view an overview floor plan of all 4 floors.</p>
+
+
+
 
 
