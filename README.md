@@ -14,7 +14,7 @@ A conceptional user interactive interface to ease students library experience fo
 
 <img src="Readme_Imgs/floor3.png" width="500">
 
-
+<p>Furthermore, users can request a particular chair and make a reservation</p>
 
 
 
